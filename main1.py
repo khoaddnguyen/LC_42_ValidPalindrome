@@ -12,5 +12,3 @@ def isPalindrome(self, s: str) -> bool:
 
     return newString == newString[::-1]  # bool to check if new string equal to its reversal
 
-# Method 2: 2 pointers L - R, comparing to ASCII
-# time is O(n), memory is O(1)
